@@ -1,0 +1,25 @@
+{
+    "todos": [
+        {
+            "id": 1710000000001,
+            "text": "Hoàn thành báo cáo dự án",
+            "completed": false,
+            "priority": "high",
+            "createdAt": "2026-03-09T14:27:00.000Z"
+        },
+        {
+            "id": 1710000000002,
+            "text": "Đi siêu thị mua trái cây",
+            "completed": true,
+            "priority": "medium",
+            "createdAt": "2026-03-09T10:15:00.000Z"
+        },
+        {
+            "id": 1710000000003,
+            "text": "Đọc 10 trang sách",
+            "completed": false,
+            "priority": "low",
+            "createdAt": "2026-03-09T08:00:00.000Z"
+        }
+    ]
+}

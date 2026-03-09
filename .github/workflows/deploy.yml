@@ -8,11 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+        
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v0.1.6
         with:
@@ -21,6 +20,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd ~/Devops_Todo
-            git pull
-            docker compose down
-            docker compose up -d --build
+            git pull origin main
+            docker-compose down
+            docker-compose up -d --build

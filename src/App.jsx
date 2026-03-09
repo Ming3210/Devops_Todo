@@ -178,7 +178,7 @@ function App() {
                   value={priority}
                   onChange={(e) => setPriority(e.target.value)}
                 >
-                  <option value="low">Canh tác hào quang</option>
+                  <option value="low">Canh tác hào quang 2</option>
                   <option value="medium">Medium Priority</option>
                   <option value="high">High Priority</option>
                 </select>
